@@ -1,0 +1,11 @@
+.btnHome {
+    -fx-background-image: url("../Images/home.png");
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 50px;
+    -fx-background-size: 40 40;
+}
+.btnHome:hover {
+    -fx-background-image: url("../Images/home2.png");
+    -fx-background-size: 40 40;
+}

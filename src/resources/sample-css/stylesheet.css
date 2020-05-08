@@ -1,0 +1,282 @@
+.board_square {
+    -fx-fill: #1e90ff;
+}
+
+.board_square_lt {
+    -fx-fill: #cccccc;
+}
+.background{
+    /*-fx-background-image: url("../Images/background.png");*/
+    -fx-background-color: #EBECF0;
+}
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+.scroll-pane > .scroll-bar {
+    -fx-background-color: WHITE;
+}
+.scroll-bar > .track {
+    -fx-background-color: #bef2fa;
+    -fx-background-radius: 30px;
+}
+.scroll-bar > .thumb {
+     -fx-background-color: #50e6fc;
+     -fx-background-radius: 30px;
+ }
+.increment-button , .decrement-button{
+    -fx-opacity: 0;
+}
+.textbox{
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+.menu-bar {
+    -fx-font-size: 20px;
+    -fx-background-radius: 30px;
+}
+.menu .label {
+    -fx-font-family: "Montserrat Alternates";
+    -fx-text-fill: #fe5164;
+    -fx-font-weight: bold;
+}
+.menu-button:hover {
+    -fx-background-color: #fe5164;
+    -fx-font-weight: bold;
+    -fx-background-radius: 50px;
+}
+.menu-button:hover .label{
+    -fx-text-fill: WHITE;
+}
+.btnHome {
+    -fx-background-image: url("../Images/home.png");
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 50px;
+    -fx-background-size: 40 40;
+}
+.btnHome:hover {
+    -fx-background-image: url("../Images/home2.png");
+    -fx-background-size: 40 40;
+}
+ .btnIntroduction {
+     -fx-background-image: url("../Images/introductionicon.png");
+     -fx-border-color: none;
+     -fx-background-color: none;
+     -fx-background-radius: 50px;
+     -fx-background-size: 40 40;
+ }
+.btnIntroduction:hover {
+    -fx-background-image: url("../Images/introductionicon2.png");
+    -fx-background-size: 40 40;
+}
+.btn-new {
+     -fx-text-fill: #2a3950;
+     -fx-font-weight: bolder;
+     -fx-font-size: 20px;
+     -fx-border-color: none;
+     -fx-background-color: none;
+     -fx-background-radius: 10px;
+     -fx-padding: 0;
+ }
+.btn-new:hover{
+    -fx-text-fill: #fe5164;
+}
+.btn-open {
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: bolder;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.btn-open:hover{
+    -fx-text-fill: #fe5164;
+}
+.btn-save {
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: bolder;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.btn-save:hover{
+    -fx-text-fill: #fe5164;
+}
+.btn-next {
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.btn-next:hover{
+    -fx-text-fill: #fe5164;
+    -fx-background-color: #fe5164;
+    -fx-effect: innershadow( THREE-PASS-BOX , #a5b0cc , 10 , 0 , 6 , 6 ), innershadow( THREE-PASS-BOX , #ffffff , 10 , 0 , -6 , -6 );
+}
+.radio-button{
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: bolder;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.radio-button .radio {
+    -fx-border-width: 2px;
+    -fx-border-color: #2a3950;
+    -fx-background-color: #EBECF0;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 3px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 10px;
+    -fx-padding: 6px;
+}
+.nameTrack{
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 12px;
+}
+.warningText{
+    -fx-text-fill: #fe5164;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 12px;
+    -fx-border-color: none;
+}
+.btn-generate {
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.btn-generate:hover{
+    -fx-text-fill: #fe5164;
+    -fx-background-color: #fe5164;
+    -fx-effect: innershadow( THREE-PASS-BOX , #a5b0cc , 10 , 0 , 6 , 6 ), innershadow( THREE-PASS-BOX , #ffffff , 10 , 0 , -6 , -6 );
+}
+.btn-previous {
+    -fx-text-fill: #2a3950;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 20px;
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+    -fx-padding: 0;
+}
+.btn-previous:hover{
+    -fx-text-fill: #fe5164;
+    -fx-background-color: #fe5164;
+    -fx-effect: innershadow( THREE-PASS-BOX , #a5b0cc , 10 , 0 , 6 , 6 ), innershadow( THREE-PASS-BOX , #ffffff , 10 , 0 , -6 , -6 );
+}
+.btn-rotate-left {
+    -fx-background-image: url("../Images/btnRotateLeft.png");
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 50px;
+}
+.btn-rotate-left:hover {
+    -fx-background-image: url("../Images/btnRotateLeft-clicked.png");
+}
+.btn-rotate-right {
+    -fx-background-image: url("../Images/btnRotateRight.png");
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 50px;
+}
+.btn-rotate-right:hover {
+    -fx-background-image: url("../Images/btnRotateRight-clicked.png");
+}
+.btn-clear {
+    -fx-background-image: url("../Images/btnClear.png");
+    -fx-background-color: white;
+    -fx-background-radius: 50px;
+}
+.btn-clear:hover {
+    -fx-background-image: url("../Images/btnClear-clicked.png");
+}
+.btn-up-layer {
+     -fx-background-image: url("../Images/btnUpLayer.png");
+     -fx-border-color: none;
+     -fx-background-color: none;
+     -fx-background-radius: 50px;
+ }
+.btn-down-layer {
+    -fx-background-image: url("../Images/btnDownLayer.png");
+    -fx-border-color: none;
+    -fx-background-color: none;
+    -fx-background-radius: 50px;
+}
+
+/* Styling the slider thumb */
+.slider > .thumb {
+    -fx-background-color: #fe5164;
+}
+.slider > .track {
+    -fx-background-color: #a5b0cc;
+}
+/* Styling the animated thumb */
+.slider > .animated-thumb {
+    -fx-background-color: green;
+}
+
+/* Styling the slider value text inside animated thumb */
+.slider .slider-value {
+    -fx-fill: white;
+    -fx-stroke: white;
+}
+.btn-play{
+    -fx-background-color: #ebecf0;
+}
+.btn-next-song{
+    -fx-background-image: url("../Images/homepage/nexticon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-color: #ebecf0;
+    -fx-background-size: 40 40;
+}
+.btn-next-song:hover{
+    -fx-background-image: url("../Images/homepage/nexticon3.png");
+    -fx-background-repeat: stretch;
+    -fx-background-color: #ebecf0;
+    -fx-background-size: 40 40;
+}
+.rec{
+    -fx-fill: transparent;
+    -fx-stroke: BLACK;
+    -fx-stroke-type: INSIDE;
+    -fx-z-index: 10;
+}

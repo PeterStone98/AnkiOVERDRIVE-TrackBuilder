@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-border-color: black; -fx-background-color: #EBECF0;" styleClass="background" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox fx:id="vbox" layoutX="120.0" layoutY="13.0" prefHeight="675.0" prefWidth="1063.0">
+            <children>
+                <Pane fx:id="boardPane" prefHeight="673.0" prefWidth="1063.0">
+                    <children>
+                        <Group fx:id="rectangleGroup" layoutY="60.0">
+                            <children>
+                                <Pane fx:id="row0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_0" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_0" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row1" layoutY="75.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_1" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_1" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children></Pane>
+                                <Pane fx:id="row2" layoutY="150.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_2" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_2" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row3" layoutY="225.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_3" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_3" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row4" layoutY="300.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_4" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_4" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row5" layoutY="375.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_5" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_5" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row6" layoutY="450.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_6" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_6" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                                <Pane fx:id="row7" layoutY="525.0" prefHeight="75.0" prefWidth="750.0">
+                                    <children>
+                                        <Rectangle fx:id="sq0_7" arcHeight="5.0" arcWidth="5.0" height="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq1_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="75.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq2_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="150.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq3_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="225.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq4_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="300.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq5_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="375.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq6_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="450.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq7_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="525.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq8_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="600.0" styleClass="rec" width="75.0" />
+                                        <Rectangle fx:id="sq9_7" arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="675.0" styleClass="rec" width="75.0" />
+                                    </children>
+                                </Pane>
+                            </children>
+                        </Group>
+                        <Pane layoutX="791.0" prefHeight="657.0" prefWidth="255.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 10px;">
+                            <children>
+                                <Pane layoutX="34.0" layoutY="371.0" prefHeight="161.0" prefWidth="193.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 10px;">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect>
+                                </Pane>
+                                <Button layoutX="163.0" layoutY="608.0" mnemonicParsing="false" onMouseClicked="#loadNext" prefHeight="32.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 8px;" styleClass="btn-next" text="NEXT">
+                                    <effect>
+                                        <DropShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6505848169326782" green="0.689936637878418" blue="0.7894737124443054" opacity="0.8899999856948853" />
+                                            </color>
+                                            <input>
+                                                <DropShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </DropShadow>
+                                            </input>
+                                        </DropShadow>
+                                    </effect></Button>
+                                <Button layoutX="13.0" layoutY="608.0" mnemonicParsing="false" onMouseClicked="#loadPrevious" prefHeight="32.0" prefWidth="108.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 8px;" styleClass="btn-previous" text="PREVIOUS">
+                                    <effect>
+                                        <DropShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6509804129600525" green="0.6941176652908325" blue="0.8039215803146362" opacity="0.8799999952316284" />
+                                            </color>
+                                            <input>
+                                                <DropShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </DropShadow>
+                                            </input>
+                                        </DropShadow>
+                                    </effect></Button>
+                                <Button layoutX="83.0" layoutY="551.0" mnemonicParsing="false" onAction="#generate" onMouseClicked="#generate" prefHeight="40.0" prefWidth="108.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 8px;" styleClass="btn-generate" text="GENERATE">
+                                    <effect>
+                                        <DropShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6509804129600525" green="0.6941176652908325" blue="0.8039215803146362" opacity="0.8899999856948853" />
+                                            </color>
+                                            <input>
+                                                <DropShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </DropShadow>
+                                            </input>
+                                        </DropShadow>
+                                    </effect></Button>
+                                <ImageView fx:id="intersectionTrackBtn" fitHeight="75.0" fitWidth="75.0" layoutX="35.0" layoutY="35.0" onMouseClicked="#createIntersectionTrack" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/Images/intersection.png" />
+                                    </image>
+                                    <rotationAxis>
+                                        <Point3D z="31.0" />
+                                    </rotationAxis>
+                                </ImageView>
+                                <ImageView fx:id="straightTrackBtn" fitHeight="75.0" fitWidth="75.0" layoutX="145.0" layoutY="35.0" onMouseClicked="#createStraightTrack" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/Images/straight.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fx:id="curveTrackBtn" fitHeight="75.0" fitWidth="75.0" layoutX="35.0" layoutY="148.0" onMouseClicked="#createCurvesTrack" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/Images/curves.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fx:id="speedTrackBtn" fitHeight="75.0" fitWidth="75.0" layoutX="145.0" layoutY="150.0" onMouseClicked="#createSpeedTrack" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/Images/speed.png" />
+                                    </image>
+                                </ImageView>
+                                <ImageView fx:id="jumpTrackBtn" fitHeight="75.0" fitWidth="150.0" layoutX="55.0" layoutY="254.0" onMouseClicked="#createJumpTrack" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../resources/Images/jump.png" />
+                                    </image>
+                                </ImageView>
+                                <TextField fx:id="numOfIntersection" alignment="CENTER" layoutX="35.0" layoutY="120.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 50px;" styleClass="textbox" text="0">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6480000019073486" green="0.6910666823387146" blue="0.800000011920929" opacity="0.8865217566490173" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect></TextField>
+                                <TextField fx:id="numOfStraight" alignment="CENTER" layoutX="145.0" layoutY="120.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 50px;" styleClass="textbox" text="0">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8799999952316284" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow height="20.0" offsetX="-6.0" offsetY="-6.0" radius="9.5" width="20.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect></TextField>
+                                <TextField fx:id="numOfCurves" alignment="CENTER" layoutX="35.0" layoutY="225.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 50px;" styleClass="textbox" text="0">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect></TextField>
+                                <TextField fx:id="numOfSpeed" alignment="CENTER" layoutX="145.0" layoutY="225.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 50px;" styleClass="textbox" text="0">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect></TextField>
+                                <TextField fx:id="numOfJump" alignment="CENTER" layoutX="90.5" layoutY="330.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 50px;" styleClass="textbox" text="0">
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect></TextField>
+                                <TextField fx:id="nameText" layoutX="12.0" layoutY="1.0" prefHeight="25.0" prefWidth="231.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 10px;" styleClass="nameTrack">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                    <effect>
+                                        <InnerShadow offsetX="6.0" offsetY="6.0">
+                                            <color>
+                                                <Color red="0.6480000019073486" green="0.6910666823387146" blue="0.800000011920929" opacity="0.8826087117195129" />
+                                            </color>
+                                            <input>
+                                                <InnerShadow offsetX="-6.0" offsetY="-6.0">
+                                                    <color>
+                                                        <Color red="1.0" green="1.0" blue="1.0" />
+                                                    </color>
+                                                </InnerShadow>
+                                            </input>
+                                        </InnerShadow>
+                                    </effect>
+                                </TextField>
+                            </children>
+                            <effect>
+                                <DropShadow offsetX="6.0" offsetY="6.0">
+                                    <color>
+                                        <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                                    </color>
+                                    <input>
+                                        <DropShadow offsetX="-6.0" offsetY="-6.0">
+                                            <color>
+                                                <Color red="1.0" green="1.0" blue="1.0" />
+                                            </color>
+                                        </DropShadow>
+                                    </input>
+                                </DropShadow>
+                            </effect>
+                        </Pane>
+                        <TextField fx:id="warningText" alignment="CENTER" layoutX="825.0" layoutY="490.0" prefHeight="27.0" prefWidth="193.0" style="-fx-background-color: none; -fx-border-color: none;" styleClass="warningText" />
+                    </children>
+                </Pane>
+            </children></VBox>
+        <Pane layoutX="120.0" layoutY="15.0" prefHeight="40.0" prefWidth="758.0" />
+        <Pane layoutX="24.0" layoutY="215.0" prefHeight="349.0" prefWidth="70.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 10px;">
+            <children>
+                <Button layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#rotateLeftPiece" prefHeight="40.0" prefWidth="40.0" styleClass="btn-rotate-left" />
+                <Button layoutX="16.0" layoutY="88.0" mnemonicParsing="false" onMouseClicked="#rotateRightPiece" prefHeight="40.0" prefWidth="40.0" styleClass="btn-rotate-right" />
+                <Button layoutX="15.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#clearPiece" prefHeight="40.0" prefWidth="40.0" styleClass="btn-clear" />
+                <Button fx:id="btnLayerUp" layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#upLayer" prefHeight="40.0" prefWidth="40.0" styleClass="btn-up-layer" />
+                <Button fx:id="btnLayerDown" layoutX="14.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#dơwnLayer" prefHeight="40.0" prefWidth="40.0" styleClass="btn-down-layer" />
+            </children>
+            <effect>
+                <DropShadow offsetX="6.0" offsetY="6.0">
+                    <color>
+                        <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                    </color>
+                    <input>
+                        <DropShadow offsetX="-6.0" offsetY="-6.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </DropShadow>
+                    </input>
+                </DropShadow>
+            </effect>
+        </Pane>
+        <Pane layoutX="120.0" layoutY="10.0" prefHeight="50.0" prefWidth="750.0" style="-fx-background-color: #EBECF0; -fx-background-radius: 10px;">
+            <effect>
+                <DropShadow offsetX="6.0" offsetY="6.0">
+                    <color>
+                        <Color red="0.6470588445663452" green="0.6901960968971252" blue="0.800000011920929" opacity="0.8899999856948853" />
+                    </color>
+                    <input>
+                        <DropShadow offsetX="-6.0" offsetY="-6.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </DropShadow>
+                    </input>
+                </DropShadow>
+            </effect>
+            <children>
+                <Button layoutX="14.0" layoutY="7.0" mnemonicParsing="false" onAction="#clearAllPieces" prefHeight="35.0" prefWidth="52.0" styleClass="btn-new" text="Clear" />
+                <Button layoutX="97.0" layoutY="7.0" mnemonicParsing="false" onAction="#openFile" prefHeight="35.0" prefWidth="52.0" styleClass="btn-open" text="Open" />
+                <Button layoutX="183.0" layoutY="7.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="35.0" prefWidth="52.0" styleClass="btn-save" text="Save" textFill="#030303" />
+                <Button fx:id="btnPlay" layoutX="620.0" layoutY="1.0" mnemonicParsing="false" onAction="#playandpauseSong" prefHeight="35.0" prefWidth="35.0" style="-fx-background-radius: 50px;" styleClass="btn-play" textFill="#030303">
+                    <graphic>
+                        <ImageView fx:id="iconPlay" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/Images/homepage/pauseicon2.png" />
+                            </image>
+                        </ImageView>
+                    </graphic></Button>
+                <Button layoutX="690.0" layoutY="7.0" mnemonicParsing="false" onAction="#nextSong" prefHeight="35.0" prefWidth="35.0" style="-fx-background-radius: 50px;" styleClass="btn-next-song" textFill="#030303" />
+                <Slider fx:id="volumeSlider" layoutX="460.0" layoutY="15.0" styleClass="volume" />
+                <RadioButton layoutX="262.0" layoutY="11.0" mnemonicParsing="false" onAction="#creative" styleClass="radiobtn" text="Creative" />
+            </children>
+        </Pane>
+        <Button layoutX="32.0" layoutY="15.0" mnemonicParsing="false" onAction="#backHomePage" prefHeight="40.0" prefWidth="40.0" styleClass="btnHome" />
+        <Button layoutX="32.0" layoutY="80.0" mnemonicParsing="false" onAction="#openIntroduction" prefHeight="40.0" prefWidth="40.0" styleClass="btnIntroduction" />
+
+    </children>
+</AnchorPane>

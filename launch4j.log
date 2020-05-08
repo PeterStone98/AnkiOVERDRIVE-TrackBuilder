@@ -1,0 +1,81 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\123.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\.
+Java min ver:	1.008.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_152
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_152
+Ignore:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_152 (64-bit)
+Launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe
+Launcher args:	-jar "C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\123.exe"
+Args length:	83/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\123.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\.
+Java min ver:	1.008.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_152
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_152
+Ignore:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_152 (64-bit)
+Launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe
+Launcher args:	-jar "C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\123.exe"
+Args length:	83/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\trackBuilder.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\.
+Java min ver:	1.008.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_152
+Check launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe (OK)
+Match:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_152
+Ignore:		1.008.000_152
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_152 (64-bit)
+Launcher:	C:\Program Files\Java\jre1.8.0_152\bin\javaw.exe
+Launcher args:	-jar "C:\Users\trida\Desktop\DATTRAN\STUDY\Oswego\CSC 380\demoTrackBuilder\trackBuilder.exe"
+Args length:	92/32768 chars
+Exit code:	0

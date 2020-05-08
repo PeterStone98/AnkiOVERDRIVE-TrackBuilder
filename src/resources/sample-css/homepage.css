@@ -1,0 +1,55 @@
+.background{
+    -fx-background-image: url("../Images/homepage/homepageBG.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1200 700;
+}
+/* Styling the slider thumb */
+.slider > .thumb {
+    -fx-background-color: #fe92a1;
+}
+.slider > .track {
+    -fx-background-color: #a5b0cc;
+}
+.btnPlay{
+    -fx-background-color: #ebecf0;
+    -fx-background-size: 70 70;
+}
+.btnPrev{
+    -fx-background-image: url("../Images/homepage/previcon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-color: #ebecf0;
+    -fx-background-size: 50 50;
+}
+.btnPrev:hover{
+    -fx-background-image: url("../Images/homepage/previcon2.png");
+    -fx-background-color: #fe92a1;
+ }
+.btnNext{
+    -fx-background-image: url("../Images/homepage/nexticon.png");
+    -fx-background-repeat: stretch;
+    -fx-background-color: #ebecf0;
+    -fx-background-size: 50 50;
+}
+.btnNext:hover{
+    -fx-background-image: url("../Images/homepage/nexticon2.png");
+    -fx-background-color: #fe92a1;
+}
+.btnNew{
+    -fx-effect: dropshadow(THREE-PASS-BOX, #a5b0cc, 20, 0 , 6, 6);
+}
+.btnNew:hover{
+    -fx-effect: innershadow(THREE-PASS-BOX, #a5b0cc, 10, 0 , 6, 6);
+ }
+.btnLoad{
+    -fx-effect: dropshadow(THREE-PASS-BOX, #a5b0cc, 20, 0 , 6, 6);
+    -fx-effect-input: dropshadow(THREE-PASS-BOX, #ffffff, 20, 0 , -6, -6);
+}
+.btnLoad:hover{
+    -fx-effect: innershadow(THREE-PASS-BOX, #a5b0cc, 10, 0 , 6, 6);
+}.btnAbout{
+     -fx-effect: dropshadow(THREE-PASS-BOX, #a5b0cc, 20, 0 , 6, 6);
+     -fx-effect-input: dropshadow(THREE-PASS-BOX, #ffffff, 20, 0 , -6, -6);
+ }
+.btnAbout:hover{
+    -fx-effect: innershadow(THREE-PASS-BOX, #a5b0cc, 10, 0 , 6, 6);
+}
